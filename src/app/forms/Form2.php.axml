@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="Form2">
+    
+  <method name="doShow">
+      <sleep sync="" sync-type="" value="4000" value-type="integer"/>
+      <loadForm form="Form2" form-type="form" savePosition="" savePosition-type="" saveSize="" saveSize-type=""/>
+      <message kind="INFORMATION" kind-type="string" value="Данный чит внедрён" value-type="string" wait="1" wait-type=""/>
+    </method>
+  </class>
+</root>
