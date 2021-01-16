@@ -18,7 +18,7 @@ class MainForm extends AbstractForm
     /**
      * Текущая версия программы 
      */
-    const VERSION = '1.0.0.2';
+    const VERSION = '1.0.0.3';
 
     /**
      * @event show 
@@ -30,6 +30,30 @@ class MainForm extends AbstractForm
         // Проверка обновлений
         // Обязательно нужно передать текущую версию программы
         UpdateMe::start(self::VERSION);
+    }
+
+    /**
+     * @event button.click-Left 
+     */
+    function doButtonClickLeft(UXMouseEvent $e = null)
+    {    
+        
+    }
+
+    /**
+     * @event buttonAlt.click-Left 
+     */
+    function doButtonAltClickLeft(UXMouseEvent $e = null)
+    {    
+        
+    }
+
+    /**
+     * @event button3.click-Left 
+     */
+    function doButton3ClickLeft(UXMouseEvent $e = null)
+    {    
+        
     }
     
 }

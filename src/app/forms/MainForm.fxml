@@ -25,7 +25,7 @@
       </font>
     </ImageViewEx>
     <Data cursor="DEFAULT" enabled="1" id="data-image4" image=".data/img/6ki.gif" visible="1"/>
-    <com.jfoenix.controls.JFXSlider blockIncrement="10" focusTraversable="true" id="slider" indicatorPosition="LEFT" layoutX="32" layoutY="280" majorTickUnit="50" max="4" min="0" orientation="HORIZONTAL" prefHeight="24" prefWidth="224" showTickLabels="true" showTickMarks="true" snapToTicks="false" styleClass="slider jfx-slider " value="0"/>
+    <com.jfoenix.controls.JFXSlider blockIncrement="10" focusTraversable="true" id="slider" indicatorPosition="LEFT" layoutX="32" layoutY="280" majorTickUnit="50" max="3.7" min="0" orientation="HORIZONTAL" prefHeight="24" prefWidth="224" showTickLabels="true" showTickMarks="true" snapToTicks="false" styleClass="slider jfx-slider " value="0"/>
     <Data cursor="DEFAULT" enabled="1" id="data-slider" visible="1"/>
     <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="56" layoutY="192" prefHeight="47" prefWidth="224" styleClass="label " text="Reach" textAlignment="LEFT" underline="false" wrapText="false">
       <font>
@@ -47,7 +47,7 @@
     <Data cursor="DEFAULT" enabled="1" id="data-buttonAlt" visible="1"/>
     <Separator focusTraversable="false" id="separator" layoutX="0" layoutY="200" orientation="HORIZONTAL" prefHeight="8" prefWidth="800" styleClass="separator "/>
     <Data cursor="DEFAULT" enabled="1" id="data-separator" visible="1"/>
-    <org.develnext.jphp.ext.javafx.support.control.NumberSpinner alignment="CENTER_LEFT" arrowsStyle="RIGHT_VERTICAL" editable="false" focusTraversable="true" id="numberField" initial="0" layoutX="312" layoutY="256" max="10" min="1" prefHeight="32" prefWidth="144" step="1" styleClass="spinner  "/>
+    <org.develnext.jphp.ext.javafx.support.control.NumberSpinner alignment="CENTER_LEFT" arrowsStyle="RIGHT_VERTICAL" editable="false" focusTraversable="true" id="numberField" initial="0" layoutX="312" layoutY="256" max="10" min="1" prefHeight="32" prefWidth="144" step="1" styleClass="spinner "/>
     <Data cursor="DEFAULT" enabled="1" id="data-numberField" visible="1"/>
     <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="520" layoutY="240" prefHeight="24" prefWidth="144" styleClass="label " text="Hits" textAlignment="LEFT" underline="false" wrapText="false">
       <font>
