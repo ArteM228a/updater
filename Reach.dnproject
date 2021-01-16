@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project author="bassl" authorOS="Windows 10" createdAt="1610745015929" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="Reach" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1610791757686">
+<project author="bassl" authorOS="Windows 10" createdAt="1610745015929" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="Reach" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1610792230369">
   <tree>
     <expanded>
     <path src=""/>
@@ -11,9 +11,9 @@
     </expanded>
   </tree>
   <openedFiles>
-  <file selected="1" src="Reach.dnproject"/>
+  <file src="Reach.dnproject"/>
     <file src="src/app/modules/MainModule.php"/>
-    <file src="src/app/forms/MainForm.php"/>
+    <file selected="1" src="src/app/forms/MainForm.php"/>
     <file src="src/app/forms/Form2.php"/>
   </openedFiles>
   <files/>
