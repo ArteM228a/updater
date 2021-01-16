@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project author="bassl" authorOS="Windows 10" createdAt="1610745015929" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="Reach" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1610749013124">
+<project author="bassl" authorOS="Windows 10" createdAt="1610745015929" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="Reach" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1610789361766">
   <tree>
     <expanded>
-      <path src=""/>
+    <path src=""/>
       <path src="/src"/>
       <path src="/src/.theme"/>
       <path src="/src/app"/>
@@ -11,15 +11,14 @@
     </expanded>
   </tree>
   <openedFiles>
-    <file src="Reach.dnproject"/>
+  <file src="Reach.dnproject"/>
     <file src="src/app/modules/MainModule.php"/>
-    <file src="src/app/forms/MainForm.php"/>
+    <file selected="1" src="src/app/forms/MainForm.php"/>
     <file src="src/app/forms/Form2.php"/>
-    <file selected="1" src="src/app/forms/Form3.php"/>
   </openedFiles>
   <files/>
   <behaviours>
-    <behaviour class="ide\project\behaviours\BundleProjectBehaviour"/>
+  <behaviour class="ide\project\behaviours\BundleProjectBehaviour"/>
     <behaviour class="ide\project\behaviours\PhpProjectBehaviour"/>
     <behaviour class="ide\project\behaviours\JavaPlatformBehaviour"/>
     <behaviour class="ide\project\behaviours\GuiFrameworkProjectBehaviour"/>

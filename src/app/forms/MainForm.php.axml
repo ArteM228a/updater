@@ -10,11 +10,7 @@
   <method name="doButton3ClickLeft">
       <loadForm form="Form2" form-type="form" savePosition="" savePosition-type="" saveSize="" saveSize-type=""/>
     </method>
-  <method name="doLabel4ClickLeft">
-      <loadForm form="Form3" form-type="form" savePosition="" savePosition-type="" saveSize="" saveSize-type=""/>
-    </method>
-  <method name="doButton4ClickLeft">
-      <loadForm form="Form4" form-type="form" savePosition="" savePosition-type="" saveSize="" saveSize-type=""/>
-    </method>
+  
+  
   </class>
 </root>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="472" prefWidth="800" styleClass=" ">
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="448" prefWidth="800" styleClass=" ">
   <children>
     <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="144" id="image" layoutX="-8" layoutY="-8" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="200">
       <font>
@@ -13,19 +13,19 @@
       </font>
     </ImageViewEx>
     <Data cursor="DEFAULT" enabled="1" id="data-imageAlt" image=".data/img/icons8-vimeo-500.png" visible="1"/>
-    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="144" id="image3" layoutX="600" layoutY="328" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="200">
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="144" id="image3" layoutX="608" layoutY="304" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="200">
       <font>
         <Font name="System Regular" size="12"/>
       </font>
     </ImageViewEx>
     <Data cursor="DEFAULT" enabled="1" id="data-image3" image=".data/img/6ki.gif" visible="1"/>
-    <ImageViewEx autoSize="false" centered="false" flipX="true" focusTraversable="false" height="144" id="image4" layoutX="-8" layoutY="328" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="200">
+    <ImageViewEx autoSize="false" centered="false" flipX="true" focusTraversable="false" height="144" id="image4" layoutX="-8" layoutY="304" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="200">
       <font>
         <Font name="System Regular" size="12"/>
       </font>
     </ImageViewEx>
     <Data cursor="DEFAULT" enabled="1" id="data-image4" image=".data/img/6ki.gif" visible="1"/>
-    <com.jfoenix.controls.JFXSlider blockIncrement="10" focusTraversable="true" id="slider" indicatorPosition="LEFT" layoutX="32" layoutY="280" majorTickUnit="50" max="4" min="3.1" orientation="HORIZONTAL" prefHeight="24" prefWidth="224" showTickLabels="true" showTickMarks="true" snapToTicks="false" styleClass="slider jfx-slider " value="3.6"/>
+    <com.jfoenix.controls.JFXSlider blockIncrement="10" focusTraversable="true" id="slider" indicatorPosition="LEFT" layoutX="32" layoutY="280" majorTickUnit="50" max="3.8" min="0" orientation="HORIZONTAL" prefHeight="24" prefWidth="224" showTickLabels="true" showTickMarks="true" snapToTicks="false" styleClass="slider jfx-slider " value="0"/>
     <Data cursor="DEFAULT" enabled="1" id="data-slider" visible="1"/>
     <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="56" layoutY="192" prefHeight="47" prefWidth="224" styleClass="label " text="Reach" textAlignment="LEFT" underline="false" wrapText="false">
       <font>
@@ -61,55 +61,11 @@
       </font>
     </com.jfoenix.controls.JFXButton>
     <Data cursor="DEFAULT" enabled="1" id="data-button3" visible="1"/>
-    <org.develnext.jphp.ext.javafx.jfoenix.support.JFXTabPaneFixed focusTraversable="true" id="tabPane" layoutX="216" layoutY="48" opacity="0.71951219512195" prefHeight="40" prefWidth="344" style="&#10;-fx-background-color: #000000;" styleClass="jfx-tab-pane " tabClosingPolicy="SELECTED_TAB">
-      <tabs>
-        <Tab text="Баны 47 за этот день">
-          <content>
-            <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="5" prefWidth="344" styleClass="">
-              <children/>
-            </AnchorPane>
-          </content>
-        </Tab>
-        <Tab text="Читеры Обнаружено 8 человек">
-          <content>
-            <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="5" prefWidth="344" styleClass="">
-              <children/>
-            </AnchorPane>
-          </content>
-        </Tab>
-        <Tab text="Нарушители 79">
-          <content>
-            <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="5" prefWidth="344" styleClass="">
-              <children/>
-            </AnchorPane>
-          </content>
-        </Tab>
-      </tabs>
-    </org.develnext.jphp.ext.javafx.jfoenix.support.JFXTabPaneFixed>
-    <Data cursor="DEFAULT" enabled="1" id="data-tabPane" visible="1"/>
     <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="312" layoutY="192" prefHeight="85" prefWidth="152" styleClass="label " text="KB %" textAlignment="LEFT" underline="false" wrapText="false">
       <font>
         <Font name="System Bold Italic" size="58"/>
       </font>
     </LabelEx>
     <Data cursor="DEFAULT" enabled="1" id="data-label3" visible="1"/>
-    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label4" layoutX="784" layoutY="456" prefHeight="17" prefWidth="16" styleClass="label " text="." textAlignment="LEFT" underline="false" wrapText="false">
-      <font>
-        <Font name="System Regular" size="12"/>
-      </font>
-    </LabelEx>
-    <Data cursor="DEFAULT" enabled="1" id="data-label4" visible="1"/>
-    <Hyperlink alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="link" layoutX="384" layoutY="144" prefHeight="16" prefWidth="144" styleClass="hyperlink " text="Заходи Подписывайся" textAlignment="LEFT" wrapText="false">
-      <font>
-        <Font name="System Regular" size="12"/>
-      </font>
-    </Hyperlink>
-    <Data cursor="DEFAULT" enabled="1" id="data-link" visible="1"/>
-    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button4" layoutX="200" layoutY="440" prefHeight="32" prefWidth="144" styleClass="button " text="Update Check" textAlignment="CENTER" underline="false" wrapText="false">
-      <font>
-        <Font name="System Regular" size="12"/>
-      </font>
-    </Button>
-    <Data cursor="DEFAULT" enabled="1" id="data-button4" visible="1"/>
   </children>
 </AnchorPane>

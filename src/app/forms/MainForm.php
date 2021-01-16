@@ -31,21 +31,7 @@ class MainForm extends AbstractForm
         
     }
 
-    /**
-     * @event label4.click-Left 
-     */
-    function doLabel4ClickLeft(UXMouseEvent $e = null)
-    {    
-        
-    }
 
-    /**
-     * @event button4.click-Left 
-     */
-    function doButton4ClickLeft(UXMouseEvent $e = null)
-    {    
-        
-    }
 
 
 }
